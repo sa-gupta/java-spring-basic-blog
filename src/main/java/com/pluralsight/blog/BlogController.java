@@ -26,7 +26,7 @@ public class BlogController {
 	public String listPosts(ModelMap mMap) {
 		List<Post> posts1 = postRepository.getAllPosts();
 		mMap.put("posts", posts1);
-		mMap.put("title", posts1);
+		mMap.put("title", "Blog Post 1");
 		return "home";
 	}
 }

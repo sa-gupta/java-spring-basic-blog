@@ -52,6 +52,10 @@ public class PostRepository {
     }
     
     public Post findById(Long id) {
-        return null;
+        
+    	return ALL_POSTS.stream()
+    			  .filter(customer -> id.equals(customer.getId()))
+    			  .findAny()
+    			  .orElse(null);
     }
 }

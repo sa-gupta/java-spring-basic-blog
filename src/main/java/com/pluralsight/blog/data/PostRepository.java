@@ -15,7 +15,7 @@ public class PostRepository {
     	       new Post(1l, "Earbuds",
     	               "You have got to try these in your ears. So tiny and can even block the sounds of screaming toddlers if you so desire.",
     	               "You have got to try these in your ears. So tiny and can even block the sounds of screaming toddlers if you so desire.",
-    	               "Sachin Holderness", new Date()),
+    	               "Sarah Holderness", new Date()),
     	       new Post(2l, "Smart Speakers",
     	               "Smart speakers listen to you all right.  Sometimes they get a little snippy but will still order your favorite takeout.",
     	               "Smart speakers listen to you all right.  Sometimes they get a little snippy but will still order your favorite takeout.",
